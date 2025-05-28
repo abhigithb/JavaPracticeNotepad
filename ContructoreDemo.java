@@ -5,7 +5,7 @@ public class ContructoreDemo{
   
   public ContructoreDemo(String empName, int empAge)
   {
-    this.empName=empName;
+        this.empName=empName;
 	this.empAge=empAge;
   }
   
@@ -21,11 +21,11 @@ public class ContructoreDemo{
    
    Scanner sc=new Scanner(System.in);
    System.out.println("Enter employee name");
-   String inputName=sc.nextLine();
+   String empName=sc.nextLine();
    System.out.println("Enter employee age");
-   int inputAge=sc.nextInt();
+   int empAge=sc.nextInt();
    sc.close();
- ContructoreDemo cd=new ContructoreDemo(inputName,inputAge);
+ ContructoreDemo cd=new ContructoreDemo(empName,empAge);
  cd.employeeInfo();
  
    
